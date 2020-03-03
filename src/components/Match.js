@@ -4,7 +4,7 @@ const Match = ({homeTeamName, awayTeamName, fullTimeScoreAwayTeam, fullTimeScore
 
     return (
         <li>
-        <p>{homeTeamName} vs {awayTeamName} {fullTimeScoreAwayTeam}, {fullTimeScoreHomeTeam} </p>
+        <p>{homeTeamName} ({fullTimeScoreHomeTeam} - {fullTimeScoreAwayTeam}) {awayTeamName}</p>
         </li>
     )
 }

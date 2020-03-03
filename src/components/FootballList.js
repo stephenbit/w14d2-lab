@@ -10,7 +10,6 @@ const FootballList = (props) => {
             awayTeamName= {match.awayTeam.name}
             fullTimeScoreHomeTeam = {match.score.fullTime.homeTeam}
             fullTimeScoreAwayTeam = {match.score.fullTime.awayTeam}
-
             >
             </Match>
         )
