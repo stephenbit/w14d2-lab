@@ -22,7 +22,7 @@ class FootballContainer extends Component {
 
     render() {
         return (
-            <FootballList/>
+            <FootballList matches = {this.state.matches} />
         );
     }
 }
