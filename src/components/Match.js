@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Match = ({homeTeam, awayTeam}) => {
+const Match = ({homeTeamName, awayTeamName, fullTimeScoreAwayTeam, fullTimeScoreHomeTeam}) => {
 
     return (
         <li>
-        <p>{homeTeam} vs {awayTeam}</p>
+        <p>{homeTeamName} vs {awayTeamName} {fullTimeScoreAwayTeam}, {fullTimeScoreHomeTeam} </p>
         </li>
     )
 }

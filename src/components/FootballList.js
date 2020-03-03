@@ -6,8 +6,12 @@ const FootballList = (props) => {
         
         return (
             <Match
-            homeTeam= {match.homeTeam.name}
-            awayTeam= {match.awayTeam.name}>
+            homeTeamName= {match.homeTeam.name}
+            awayTeamName= {match.awayTeam.name}
+            fullTimeScoreHomeTeam = {match.score.fullTime.homeTeam}
+            fullTimeScoreAwayTeam = {match.score.fullTime.awayTeam}
+
+            >
             </Match>
         )
     })
